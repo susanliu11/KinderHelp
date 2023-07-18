@@ -14,6 +14,9 @@
 		BDCF94FC2A66E07200063963 /* KinderHelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF94FB2A66E07200063963 /* KinderHelpTests.swift */; };
 		BDCF95062A66E07200063963 /* KinderHelpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF95052A66E07200063963 /* KinderHelpUITests.swift */; };
 		BDCF95082A66E07200063963 /* KinderHelpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF95072A66E07200063963 /* KinderHelpUITestsLaunchTests.swift */; };
+		BDD0A0D92A672B450057DB17 /* CommonSymptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0A0D82A672B450057DB17 /* CommonSymptoms.swift */; };
+		BDD0A0DB2A672D3C0057DB17 /* PreventativeCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0A0DA2A672D3C0057DB17 /* PreventativeCare.swift */; };
+		BDD0A0DD2A672D640057DB17 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0A0DC2A672D640057DB17 /* AboutUs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BDCF95012A66E07200063963 /* KinderHelpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinderHelpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCF95052A66E07200063963 /* KinderHelpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderHelpUITests.swift; sourceTree = "<group>"; };
 		BDCF95072A66E07200063963 /* KinderHelpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderHelpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDD0A0D82A672B450057DB17 /* CommonSymptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonSymptoms.swift; sourceTree = "<group>"; };
+		BDD0A0DA2A672D3C0057DB17 /* PreventativeCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventativeCare.swift; sourceTree = "<group>"; };
+		BDD0A0DC2A672D640057DB17 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				BDCF94EA2A66E07000063963 /* KinderHelpApp.swift */,
 				BDCF94EC2A66E07000063963 /* ContentView.swift */,
+				BDD0A0DC2A672D640057DB17 /* AboutUs.swift */,
+				BDD0A0DA2A672D3C0057DB17 /* PreventativeCare.swift */,
+				BDD0A0D82A672B450057DB17 /* CommonSymptoms.swift */,
 				BDCF94EE2A66E07200063963 /* Assets.xcassets */,
 				BDCF94F02A66E07200063963 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD0A0D92A672B450057DB17 /* CommonSymptoms.swift in Sources */,
+				BDD0A0DB2A672D3C0057DB17 /* PreventativeCare.swift in Sources */,
+				BDD0A0DD2A672D640057DB17 /* AboutUs.swift in Sources */,
 				BDCF94ED2A66E07000063963 /* ContentView.swift in Sources */,
 				BDCF94EB2A66E07000063963 /* KinderHelpApp.swift in Sources */,
 			);
