@@ -15,8 +15,6 @@ struct ContentView: View {
                 
                 Image("AppBackground")
                     .resizable(resizingMode: .stretch)
-                
-                //Color(.systemBlue)
                     .ignoresSafeArea()
                 VStack{
                     Spacer()

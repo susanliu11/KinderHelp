@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD7243152A687B1800894F1B /* Symptom1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7243142A687B1800894F1B /* Symptom1.swift */; };
+		BD7243172A687B8700894F1B /* Symptom2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7243162A687B8700894F1B /* Symptom2.swift */; };
+		BD7243192A687B8F00894F1B /* Symptom3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7243182A687B8F00894F1B /* Symptom3.swift */; };
+		BD72431B2A687B9E00894F1B /* Symptom4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431A2A687B9E00894F1B /* Symptom4.swift */; };
+		BD72431D2A687BA700894F1B /* Symptom5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431C2A687BA700894F1B /* Symptom5.swift */; };
+		BD72431F2A687BB100894F1B /* Symptom6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431E2A687BB100894F1B /* Symptom6.swift */; };
 		BDCF94EB2A66E07000063963 /* KinderHelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF94EA2A66E07000063963 /* KinderHelpApp.swift */; };
 		BDCF94ED2A66E07000063963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF94EC2A66E07000063963 /* ContentView.swift */; };
 		BDCF94EF2A66E07200063963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCF94EE2A66E07200063963 /* Assets.xcassets */; };
@@ -37,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD7243142A687B1800894F1B /* Symptom1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom1.swift; sourceTree = "<group>"; };
+		BD7243162A687B8700894F1B /* Symptom2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom2.swift; sourceTree = "<group>"; };
+		BD7243182A687B8F00894F1B /* Symptom3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom3.swift; sourceTree = "<group>"; };
+		BD72431A2A687B9E00894F1B /* Symptom4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom4.swift; sourceTree = "<group>"; };
+		BD72431C2A687BA700894F1B /* Symptom5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom5.swift; sourceTree = "<group>"; };
+		BD72431E2A687BB100894F1B /* Symptom6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom6.swift; sourceTree = "<group>"; };
 		BDCF94E72A66E07000063963 /* KinderHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinderHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCF94EA2A66E07000063963 /* KinderHelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderHelpApp.swift; sourceTree = "<group>"; };
 		BDCF94EC2A66E07000063963 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +117,12 @@
 				BDD0A0DC2A672D640057DB17 /* AboutUs.swift */,
 				BDD0A0DA2A672D3C0057DB17 /* PreventativeCare.swift */,
 				BDD0A0D82A672B450057DB17 /* CommonSymptoms.swift */,
+				BD7243142A687B1800894F1B /* Symptom1.swift */,
+				BD7243162A687B8700894F1B /* Symptom2.swift */,
+				BD7243182A687B8F00894F1B /* Symptom3.swift */,
+				BD72431A2A687B9E00894F1B /* Symptom4.swift */,
+				BD72431C2A687BA700894F1B /* Symptom5.swift */,
+				BD72431E2A687BB100894F1B /* Symptom6.swift */,
 				BDCF94EE2A66E07200063963 /* Assets.xcassets */,
 				BDCF94F02A66E07200063963 /* Preview Content */,
 			);
@@ -266,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7243172A687B8700894F1B /* Symptom2.swift in Sources */,
 				BDD0A0D92A672B450057DB17 /* CommonSymptoms.swift in Sources */,
 				BDD0A0DB2A672D3C0057DB17 /* PreventativeCare.swift in Sources */,
 				BDD0A0DD2A672D640057DB17 /* AboutUs.swift in Sources */,
+				BD7243152A687B1800894F1B /* Symptom1.swift in Sources */,
+				BD72431D2A687BA700894F1B /* Symptom5.swift in Sources */,
+				BD7243192A687B8F00894F1B /* Symptom3.swift in Sources */,
+				BD72431F2A687BB100894F1B /* Symptom6.swift in Sources */,
+				BD72431B2A687B9E00894F1B /* Symptom4.swift in Sources */,
 				BDCF94ED2A66E07000063963 /* ContentView.swift in Sources */,
 				BDCF94EB2A66E07000063963 /* KinderHelpApp.swift in Sources */,
 			);
