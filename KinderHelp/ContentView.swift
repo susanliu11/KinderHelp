@@ -32,17 +32,21 @@ struct ContentView: View {
                         .frame(height: 20)
                     ZStack{
                         //shadow of button
-                        RoundedRectangle(cornerRadius: 100, style: .continuous) .
-                        foregroundColor(Color.init(red: 255, green: 245, blue: 158))
-                            .frame(width: 250, height: 50)
+                        RoundedRectangle(cornerRadius: 100, style: .continuous)
+                            //.background(Color.init(red: 93, green: 155, blue: 167))
+                            .foregroundColor(Color.init(red: 93, green: 155, blue: 167))
+                            .frame(width: 260, height: 60)
+                    
                         //actual button
                         RoundedRectangle(cornerRadius: 100, style: .continuous) .
-                        foregroundColor(Color.init(red: 238, green: 244, blue: 212, opacity: 255))
+                        //background(Rectangle().foreground())Color(.blue)
+                        foregroundColor(Color.init(red: 238, green: 244, blue: 212))
                             .frame(width: 250, height: 50)
                         NavigationLink(destination: CommonSymptoms()) {
                             
                             
                             Text("Common Symptoms")
+                            
                                 .foregroundColor(Color.black)
                             
                         }
@@ -52,8 +56,10 @@ struct ContentView: View {
                     Spacer()
                         .frame(height: 30)
                     ZStack{
+                        //Shadow
                         
                         
+                        //Button
                         RoundedRectangle(cornerRadius: 100, style: .continuous) .
                         foregroundColor(Color.init(red: 255, green: 245, blue: 158))
                             .frame(width: 250, height: 50)
@@ -65,8 +71,10 @@ struct ContentView: View {
                     Spacer()
                         .frame(height: 30)
                     ZStack{
+                        //Shadow
                         
-                        
+                    
+                        //Button
                         RoundedRectangle(cornerRadius: 100, style: .continuous) .
                         foregroundColor(Color.init(red: 255, green: 245, blue: 158))
                             .frame(width: 250, height: 50)
