@@ -13,6 +13,8 @@
 		BD72431B2A687B9E00894F1B /* Headache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431A2A687B9E00894F1B /* Headache.swift */; };
 		BD72431D2A687BA700894F1B /* Symptom5.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431C2A687BA700894F1B /* Symptom5.swift */; };
 		BD72431F2A687BB100894F1B /* Symptom6.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD72431E2A687BB100894F1B /* Symptom6.swift */; };
+		BD8441AD2A69B73F00D530C4 /* PreventativeCare2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8441AC2A69B73F00D530C4 /* PreventativeCare2.swift */; };
+		BD8441AF2A69BC4A00D530C4 /* PreventativeCare3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8441AE2A69BC4A00D530C4 /* PreventativeCare3.swift */; };
 		BDCF94EB2A66E07000063963 /* KinderHelpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF94EA2A66E07000063963 /* KinderHelpApp.swift */; };
 		BDCF94ED2A66E07000063963 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCF94EC2A66E07000063963 /* ContentView.swift */; };
 		BDCF94EF2A66E07200063963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCF94EE2A66E07200063963 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		BD72431A2A687B9E00894F1B /* Headache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headache.swift; sourceTree = "<group>"; };
 		BD72431C2A687BA700894F1B /* Symptom5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom5.swift; sourceTree = "<group>"; };
 		BD72431E2A687BB100894F1B /* Symptom6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom6.swift; sourceTree = "<group>"; };
+		BD8441AC2A69B73F00D530C4 /* PreventativeCare2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventativeCare2.swift; sourceTree = "<group>"; };
+		BD8441AE2A69BC4A00D530C4 /* PreventativeCare3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventativeCare3.swift; sourceTree = "<group>"; };
 		BDCF94E72A66E07000063963 /* KinderHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinderHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCF94EA2A66E07000063963 /* KinderHelpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderHelpApp.swift; sourceTree = "<group>"; };
 		BDCF94EC2A66E07000063963 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				BDCF94EC2A66E07000063963 /* ContentView.swift */,
 				BDD0A0DC2A672D640057DB17 /* AboutUs.swift */,
 				BDD0A0DA2A672D3C0057DB17 /* PreventativeCare.swift */,
+				BD8441AC2A69B73F00D530C4 /* PreventativeCare2.swift */,
+				BD8441AE2A69BC4A00D530C4 /* PreventativeCare3.swift */,
 				BDD0A0D82A672B450057DB17 /* CommonSymptoms.swift */,
 				BD7243142A687B1800894F1B /* Cough.swift */,
 				BD7243162A687B8700894F1B /* Diarrhea.swift */,
@@ -285,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7243172A687B8700894F1B /* Diarrhea.swift in Sources */,
+				BD8441AF2A69BC4A00D530C4 /* PreventativeCare3.swift in Sources */,
 				BDD0A0D92A672B450057DB17 /* CommonSymptoms.swift in Sources */,
 				BDD0A0DB2A672D3C0057DB17 /* PreventativeCare.swift in Sources */,
 				BDD0A0DD2A672D640057DB17 /* AboutUs.swift in Sources */,
@@ -294,6 +301,7 @@
 				BD72431F2A687BB100894F1B /* Symptom6.swift in Sources */,
 				BD72431B2A687B9E00894F1B /* Headache.swift in Sources */,
 				BDCF94ED2A66E07000063963 /* ContentView.swift in Sources */,
+				BD8441AD2A69B73F00D530C4 /* PreventativeCare2.swift in Sources */,
 				BDCF94EB2A66E07000063963 /* KinderHelpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

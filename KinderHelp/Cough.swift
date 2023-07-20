@@ -9,15 +9,93 @@ import SwiftUI
 
 struct Symptom1: View {
     var body: some View {
-        Text("Cough")
-            .font(.largeTitle)
-    Spacer()
-        
+        ZStack{
+            Color("teal")
+                .ignoresSafeArea()
+            
+            VStack(spacing: 50) {
+                    
+                        Text("Cough")
+                            .font(.largeTitle)
+                            .foregroundColor(Color.white)
+                    
+                    VStack {
+                        Text("A persistent, deep sounding cough, often accompanying a sore throat")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 300.0, height: 110.0)
+                    }
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
+                    VStack {
+                        Text("Information")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 300.0, height: 30.0)
+                    }
+                    .background(Rectangle())
+                    .foregroundColor(Color("beige"))
+                    .cornerRadius(30.0)
+                    .padding()
+                 
+                        .frame(height:10)
+                    Text("TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE")
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                    
+                        .frame(height: 0)
+                VStack {
+                        Text("Cause")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 300.0, height: 30.0)
+                    }
+                    .background(Rectangle())
+                    .foregroundColor(Color("beige"))
+                    .cornerRadius(30.0)
+                    .padding()
+                 
+                        .frame(height:10)
+                    Text("TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE")
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                    
+                        .frame(height: 0)
+                    VStack {
+                        Text("Treatment Options")
+                            .font(.title2)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: 300.0, height: 30.0)
+                    }
+                    .background(Rectangle())
+                    .foregroundColor(Color("beige"))
+                    .cornerRadius(30.0)
+                    .padding()
+                 
+                        .frame(height:10)
+                    Text("TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE")
+                        .multilineTextAlignment(.center)
+                        .padding(.all)
+                    
+                        .frame(height: 0)
+                    
+                }
+            
+            
+            
+        }
     }
-}
-
-struct Symptom1_Previews: PreviewProvider {
-    static var previews: some View {
-        Symptom1()
-    }
-}
+    struct Symptom1_Previews: PreviewProvider {
+        static var previews: some View {
+            Symptom1()
+        }}}
