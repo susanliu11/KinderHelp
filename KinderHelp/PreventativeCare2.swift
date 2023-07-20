@@ -48,7 +48,7 @@ struct PreventativeCare2: View {
                         .cornerRadius(30.0)
                         .padding()
                         
-                        Text("about ear infection paragraph goes here")
+                        Text("Common symptoms include ear pain, pulling at ears, and fever. To prevent contraction of this illness, avoid putting your baby down with a bottle. Treatment options include talking to your doctor about antibiotics for infants under 6 months.")
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                         
@@ -65,7 +65,7 @@ struct PreventativeCare2: View {
                         .cornerRadius(30.0)
                         .padding()
                         
-                        Text("paragraph about the flu goes here")
+                        Text("Common symptoms include fever, headache, sore throat, runny nose, and cough. To prevent contraction of this illness, stay up to date on the flu vaccine, practice good hygiene, and avoid sick individuals. Treatment options include drinking lots of fluids and dosing children’s tylenol. See doctor only if conditions don't go away after a few days, or get worse.")
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                         

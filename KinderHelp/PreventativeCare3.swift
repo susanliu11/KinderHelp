@@ -47,7 +47,7 @@ struct PreventativeCare3: View {
                         .cornerRadius(30.0)
                         .padding()
                         
-                        Text("text about RSV goes here")
+                        Text("Common symptoms include cold and flu symptoms as well as trouble breathing. To prevent contraction of this illness, practice good hygiene and cover sneezes and coughs. Treatment options include drinking fluids and contacting your child’s doctor immediately if they are experiencing trouble breathing.")
                             .multilineTextAlignment(.center)
                             .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                         
@@ -66,7 +66,7 @@ struct PreventativeCare3: View {
                         VStack {
                             
                             
-                            Text("Text about stomach bug goes here")
+                            Text("Common symptoms include diarrhea, nausea or vomiting, and mild fever. To prevent contraction of this illness, practice thorough and often hand washing and rinse produce before consumption.")
                                 .multilineTextAlignment(.center)
                                 .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                             

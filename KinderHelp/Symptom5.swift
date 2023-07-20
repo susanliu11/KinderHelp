@@ -20,7 +20,7 @@ struct Symptom5: View {
                             .foregroundColor(Color.white)
                     
                     VStack {
-                        Text("definition here")
+                        Text("A queasy sensation, vomiting, or feeling the urge to vomit.")
                             .font(.title2)
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
@@ -64,7 +64,7 @@ struct Symptom5: View {
                     .padding()
                  
                         .frame(height:10)
-                    Text("TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE TEXT ABOUT THIS PAGE")
+                    Text("An indicator of a common cold, or a stomach bug. May also indicate stress and anxiety, so managing additional symptoms is crucial.")
                         .multilineTextAlignment(.center)
                         .padding(.all)
                     
