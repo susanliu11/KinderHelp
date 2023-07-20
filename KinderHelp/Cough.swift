@@ -9,7 +9,10 @@ import SwiftUI
 
 struct Symptom1: View {
     var body: some View {
-        Text("Symptom 1")
+        Text("Cough")
+            .font(.largeTitle)
+    Spacer()
+        
     }
 }
 

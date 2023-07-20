@@ -54,7 +54,7 @@ struct ContentView: View {
                         .cornerRadius(30.0)
                         .padding()
                     NavigationLink(destination: AboutUs()) {
-                        Text("About Us")
+                        Text("About KinderHelp")
                             .font(.body)
                             .foregroundColor(Color.black)
                             .frame(width:160, height:10)

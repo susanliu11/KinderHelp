@@ -20,55 +20,82 @@ struct CommonSymptoms: View {
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .padding()
-                    Text("Select the symptom your child is currently experiencing")
-                        .font(.subheadline)
+                    Text("Learn about symptoms frequently presented in sicknesses.Select one to continue.")
+                        .font(.footnote)
                         .multilineTextAlignment(.center)
                         .padding()
                     NavigationLink(destination: Symptom1()) {
-                        Text("Symptom 1")
+                        Text("Cough")
                             .font(.body)
                             .foregroundColor(.black)
-                        .frame(width:160, height:10) }
-                    .padding()
+                        .frame(width:160, height:10)
+                        .padding()
+                        }
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
+                    
                     
                     NavigationLink(destination: Symptom2()) {
-                        Text("Symptom 2")
+                        Text("Diarrhea")
                             .font(.body)
                             .foregroundColor(.black)
                             .frame(width:160, height:10)
+                            .padding()
                     }
-                    .padding()
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
+                    
                     NavigationLink(destination: Symptom3()) {
-                        Text("Symptom 3")
+                        Text("Fever")
                             .font(.body)
                             .foregroundColor(.black)
                             .frame(width:160, height:10)
-                        
+                            .padding()
                     }
-                    .padding()
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
                     
                     NavigationLink(destination: Symptom4()) {
-                        Text("Symptom 4")
+                        Text("Headache")
                             .font(.body)
                             .foregroundColor(.black)
                             .frame(width:160, height:10)
                             .padding()
                     }
-                    .padding()
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
+                    
                     NavigationLink(destination: Symptom5()) {
-                        Text("Symptom 5")
+                        Text("Nausea or Vomiting")
                             .font(.body)
                             .foregroundColor(.black)
                             .frame(width:160, height:10)
                             .padding()
                     }
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
+                    
                     NavigationLink(destination: Symptom6()) {
-                        Text("Symptom 6")
+                        Text("Sore Throat")
                             .font(.body)
                             .foregroundColor(.black)
                             .frame(width:160, height:10)
                             .padding()
                     }
+                    .background(Rectangle())
+                        .foregroundColor(Color("beige"))
+                        .cornerRadius(30.0)
+                        .padding()
                     
                     
                     
