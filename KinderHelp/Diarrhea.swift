@@ -25,11 +25,10 @@ struct Symptom2: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                            .frame(width: 300.0, height: 140.0)
+                            .frame(width: 350.0, height: 110.0)
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
                     VStack {
                         Text("Information")

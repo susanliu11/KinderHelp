@@ -29,7 +29,6 @@ struct Symptom3: View {
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
                     VStack {
                         Text("Information")

@@ -43,6 +43,7 @@ struct PreventativeCare3: View {
                             .cornerRadius(5.0)
                             
                             Text("Common symptoms include cold and flu symptoms as well as trouble breathing. To prevent contraction of this illness, practice good hygiene and cover sneezes and coughs. Treatment options include drinking fluids and contacting your child’s doctor immediately if they are experiencing trouble breathing.")
+                                .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                                 .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                             
@@ -61,6 +62,7 @@ struct PreventativeCare3: View {
                                 
                                 
                                 Text("Common symptoms include diarrhea, nausea or vomiting, and mild fever. To prevent contraction of this illness, practice thorough and often hand washing and rinse produce before consumption.")
+                                    .foregroundColor(Color.white)
                                     .multilineTextAlignment(.center)
                                     .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                                 

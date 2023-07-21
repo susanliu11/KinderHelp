@@ -46,6 +46,7 @@ struct PreventativeCare2: View {
                             .cornerRadius(5.0)
                             
                             Text("Common symptoms include ear pain, pulling at ears, and fever. To prevent contraction of this illness, avoid putting your baby down with a bottle. Treatment options include talking to your doctor about antibiotics for infants under 6 months.")
+                                .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                                 .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                             
@@ -62,6 +63,7 @@ struct PreventativeCare2: View {
                             
                             
                             Text("Common symptoms include fever, headache, sore throat, runny nose, and cough. To prevent contraction of this illness, stay up to date on the flu vaccine, practice good hygiene, and avoid sick individuals. Treatment options include drinking lots of fluids and dosing children’s tylenol. See doctor only if conditions don't go away after a few days, or get worse.")
+                                .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                                 .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                             Spacer()

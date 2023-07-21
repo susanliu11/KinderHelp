@@ -13,7 +13,7 @@ struct Symptom1: View {
             Color("teal")
                 .ignoresSafeArea()
             ScrollView {
-                VStack(spacing: 50) {
+                VStack(spacing: 25) {
                     
                     Text("Cough")
                         .font(.largeTitle)
@@ -25,23 +25,22 @@ struct Symptom1: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                            .frame(width: 300.0, height: 110.0)
+                            .frame(width: 400.0, height: 110.0)
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
+                    
                     VStack {
                         Text("Information")
                             .font(.title2)
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                            .frame(width: 300.0, height: 30.0)
+                            .frame(width: 400.0, height: 30.0)
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
                     
                     .frame(height:20)
@@ -56,11 +55,10 @@ struct Symptom1: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                            .frame(width: 300.0, height: 30.0)
+                            .frame(width: 400.0, height: 30.0)
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
                     
                     .frame(height:10)
@@ -75,11 +73,10 @@ struct Symptom1: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color.black)
                             .multilineTextAlignment(.center)
-                            .frame(width: 300.0, height: 30.0)
+                            .frame(width: 400.0, height: 30.0)
                     }
                     .background(Rectangle())
                     .foregroundColor(Color("beige"))
-                    .cornerRadius(30.0)
                     .padding()
                     
                     .frame(height:10)
@@ -90,6 +87,7 @@ struct Symptom1: View {
                     
                     
                 }
+                
                 
             }
             

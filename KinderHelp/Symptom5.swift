@@ -28,9 +28,8 @@ struct Symptom5: View {
                             .frame(width: 300.0, height: 140.0)
                     }
                     .background(Rectangle())
-                        .foregroundColor(Color("beige"))
-                        .cornerRadius(30.0)
-                        .padding()
+                    .foregroundColor(Color("beige"))
+                    .padding()
                     VStack {
                         Text("Information")
                             .font(.title2)

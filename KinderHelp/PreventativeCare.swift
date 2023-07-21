@@ -51,6 +51,7 @@ struct PreventativeCare: View {
                             
                             
                             Text("Common symptoms include runny nose, watery eyes, congestion, and shortness of breath. To prevent contraction of this illness, keep windows closed- especially during high-pollen season and avoiding heavy dust and mold. Treatment options include decongestants (for children over 2) and talking to your child's doctor about further medication.")
+                                .foregroundColor(Color.white)
                                 .multilineTextAlignment(.center)
                                 .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                             
@@ -68,6 +69,7 @@ struct PreventativeCare: View {
                             VStack {
                                 
                                 Text("Common symptoms include sore throat, runny nose, cough, fever, and congestion. To prevent contraction of this illness, have your child vaccinated against the flu and practice thorough and often hand washing. Treatment options include over the counter children's medicine for colds, a plain diet, and lots of water.")
+                                    .foregroundColor(Color.white)
                                     .multilineTextAlignment(.center)
                                     .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                                 
